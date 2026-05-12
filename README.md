@@ -10,22 +10,24 @@ Include the Problem Statement and Dataset.
 Include the neural network model diagram.
 
 ## DESIGN STEPS
+
+### STEP 1:
+Import the required libraries (torch, torchvision, torch.nn, torch.optim) and load the image dataset with necessary preprocessing like normalization and transformation.
+
 ### STEP 2:
-Build the CNN model using convolution, pooling, and fully connected layers.
+Split the dataset into training and testing sets and create DataLoader objects to feed images in batches to the CNN model.
 
 ### STEP 3:
-Initialize the model, define loss function, and select optimizer.
+Define the CNN architecture using convolutional layers, ReLU activation, max pooling layers, and fully connected layers as implemented in the CNNClassifier class.
 
 ### STEP 4:
-Train the CNN model using training data for several epochs.
+Initialize the model, define the loss function (CrossEntropyLoss), and choose the optimizer (Adam) for training the network.
 
 ### STEP 5:
-Test the model using accuracy and confusion matrix.
+Train the model using the training dataset by performing forward pass, computing loss, backpropagation, and updating weights for multiple epochs.
 
 ### STEP 6:
-Predict and display the class label of a single test image.
-
-
+Evaluate the trained model on test images and verify the classification accuracy for new unseen images.
 
 
 ## PROGRAM
@@ -82,17 +84,22 @@ def train_model(model, train_loader, num_epochs=3):
 
 ## Training Loss per Epoch
 
-Include the Training Loss per epoch
+Epoch [1/3], Loss: 0.2115
+Epoch [2/3], Loss: 0.1855
+Epoch [3/3], Loss: 0.1683
 
 ## Confusion Matrix
 
-Include confusion matrix here
+<img width="948" height="828" alt="image" src="https://github.com/user-attachments/assets/d09f3474-82d0-418c-a993-4fdbec92cdaa" />
+
 
 ## Classification Report
-Include classification report here
+<img width="580" height="437" alt="image" src="https://github.com/user-attachments/assets/197c75ba-6aa3-4ab2-bbb7-0a149299ccc4" />
+
 
 ### New Sample Data Prediction
-Include your sample input and output here
+<img width="561" height="621" alt="image" src="https://github.com/user-attachments/assets/1636b158-3d35-4088-9c68-60258fb5f59e" />
+
 
 ## RESULT
-Include your result here
+To Develop a Convolutional Deep Neural Network for Image Classification has been done and the output has been verified.
