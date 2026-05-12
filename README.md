@@ -7,7 +7,7 @@ To develop a convolutional deep neural network (CNN) for image classification an
 Include the Problem Statement and Dataset.
 
 ## Neural Network Model
-Include the neural network model diagram.
+<img width="1039" height="754" alt="image" src="https://github.com/user-attachments/assets/60b76dac-5d2c-49c3-a18f-35285600a6ce" />
 
 ## DESIGN STEPS
 
