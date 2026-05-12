@@ -10,28 +10,20 @@ Include the Problem Statement and Dataset.
 Include the neural network model diagram.
 
 ## DESIGN STEPS
-### STEP 1: 
+### STEP 2:
+Build the CNN model using convolution, pooling, and fully connected layers.
 
-Write your own steps
+### STEP 3:
+Initialize the model, define loss function, and select optimizer.
 
-### STEP 2: 
+### STEP 4:
+Train the CNN model using training data for several epochs.
 
+### STEP 5:
+Test the model using accuracy and confusion matrix.
 
-
-### STEP 3: 
-
-
-
-### STEP 4: 
-
-
-
-### STEP 5: 
-
-
-
-### STEP 6: 
-
+### STEP 6:
+Predict and display the class label of a single test image.
 
 
 
